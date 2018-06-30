@@ -19,7 +19,7 @@ class Demo extends Controller {
 		$this->load->library('host_allow_lib');
 		
 		//evaluate the reponse
-		if(!$this->host_restriction_lib->validate($this->config->item('host_allow'))) {
+		if(!$this->host_allow_lib->validate($this->config->item('host_allow'))) {
 		
 			echo "Nope....".$this->host_allow_lib->get_error();
 			
