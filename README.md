@@ -8,18 +8,7 @@ To allow the IP Address which can access the codeigniter pages.
 
 2.Open your autoload.php inside YOUR_PROJECT/application/config/autoload.php
   Find :
-        /*
-| -------------------------------------------------------------------
-|  Auto-load Config files
-| -------------------------------------------------------------------
-| Prototype:
-|
-|	$autoload['config'] = array('config1', 'config2');
-|
-| NOTE: This item is intended for use ONLY if you have created custom
-| config files.  Otherwise, leave it blank.
-|
-*/
+   
 $autoload['config'] = array();
 //Replace the line with
 $autoload['config'] = array('host_allow');
